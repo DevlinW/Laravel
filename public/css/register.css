@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color:whitesmoke;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.NavBar{
+    margin:auto;
+    text-align: left;
+    width: 100%;
+    font-family: arial;
+    background-color: white;
+    border-bottom: 2px black;
+    box-shadow: 0px 1px 30px rgba(0,0,0,0.3);
+}
+
+.NavButton{
+    margin: 5px;
+    background-color: white;
+    font-size: larger;
+    border: none;
+    color:deepskyblue;
+}
+
+.Footer{
+    position: fixed;
+	bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    color:deepskyblue;
+}
+
+.Content{
+    display: flex;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+
+}
+
+.BoxKiri{
+    width: 30%;
+}
+
+.BoxKanan{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Judul{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+form{
+    margin: 50px;
+}
+
+img{
+    width: 80%;
+    margin: 50px;
+}
+
+.submit{
+    background-color: #3364FF;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 98px;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
